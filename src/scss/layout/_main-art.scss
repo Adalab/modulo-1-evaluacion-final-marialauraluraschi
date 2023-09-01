@@ -1,22 +1,29 @@
 .article {
+  margin: 1rem;
   background-color: $light;
   font-family: $font-second;
-  h3 {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    color: $color;
+  text-align: left;
+    h3 {
+      margin-top: 3rem;
+      padding: 0.5rem;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      color: $color;
+    }
+    h2 {
+      font-family: $font-main;
+      font-size: 2.2rem;
+      padding: 0.5rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.8rem;
+      padding: 0.5rem;
+      margin-bottom: 4rem;
+    }
+    a {
+      @include button();
+      color: $color;
+    }
   }
-  h2 {
-    font-family: $font-main;
-    font-size: 2.2rem;
-    text-transform: uppercase;
-  }
-  p {
-    font-size: 1.8rem;
-  }
-  a {
-    @include button();
-    color: $color;
-    border: solid 0.3rem $color;
-  }
-}
+

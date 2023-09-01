@@ -1,26 +1,38 @@
 .hero {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
   height: 100vh;
   background-image: url(./assets/images/cover.jpeg);
   background-color: $color;
   color: $light;
-  img.hambur {
-width: 2rem;
-  }
-  img.scroll {
-    width: 4rem;
-  }
-  h1 {
-    font-family: $font-main;
-    font-size: 3rem;
-    text-transform: uppercase;
-  }
-  span {
-    font-family: $font-second;
-    font-size: 1.6rem;
+  .hambur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: $color;
+    border-radius: 0.2rem;
   }
 }
-// El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la
-// pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la
-// página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
+h1 {
+  font-family: $font-main;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+span {
+  padding: 2rem 4rem;
+  font-family: $font-second;
+  font-size: 1.6rem;
+}
+.scroll {
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  background-color: $light;
+  border-radius: 50%;
+}
