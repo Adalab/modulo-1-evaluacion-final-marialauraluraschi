@@ -1,0 +1,8 @@
+@mixin button (){
+    margin: 1.5rem;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    font-family: $font-second;
+    font-size: 2rem;
+    border-radius: 2rem;
+}

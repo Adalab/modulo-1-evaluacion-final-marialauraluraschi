@@ -1,7 +1,20 @@
 .hero {
+  display: flex;
+  height: 100vh;
+  background-color: $color;
   color: $light;
   height: 42rem;
- 
-  background-color: $color;
-
+  width: 100%;
+  h1 {
+    font-family: $font-main;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  span {
+    font-family: $font-second;
+    font-size: 1.6rem;
+  }
 }
+// El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la
+// pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la
+// página de Adalab. Este menú de hamburguesa no desplega ningún submenú.

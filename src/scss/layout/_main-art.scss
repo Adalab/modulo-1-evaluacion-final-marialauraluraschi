@@ -1,0 +1,22 @@
+.article {
+  background-color: $light;
+  font-family: $font-second;
+  h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: $color;
+  }
+  h2 {
+    font-family: $font-main;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  a {
+    @include button();
+    color: $color;
+    border: solid 0.3rem $color;
+  }
+}
