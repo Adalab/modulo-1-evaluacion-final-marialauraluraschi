@@ -1,3 +1,24 @@
 .main_nav {
-    background-color: $middle;
+  background-color: $middle;
+  h3 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+  }
+  ul.products {
+    display: grid;
+    figure {
+      height: 12rem;
+      width: 12rem;
+      img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25)
+      }
+    }
+  }
 }
