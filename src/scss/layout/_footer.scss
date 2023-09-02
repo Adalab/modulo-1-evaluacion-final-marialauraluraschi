@@ -6,11 +6,10 @@
   line-height: 2.7rem;
   padding-bottom: 2.5rem;
 
-  .scroll {
+  .up {
+    @include scrolls;
     transform: translateY(-50%);
     box-shadow: $shadow;
-    margin-bottom: 0;
-    margin-top: 0.5rem;
   }
   .more {
     @include center;
@@ -44,7 +43,6 @@
       list-style: none;
       text-transform: initial;
       font-size: 1.4rem;
-      
     }
   }
 }

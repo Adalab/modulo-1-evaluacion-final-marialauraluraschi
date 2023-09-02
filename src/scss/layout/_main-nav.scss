@@ -2,7 +2,7 @@
   font-family: $font-main;
   background-color: $middle;
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0;
   h3 {
     font-size: 1.2rem;
     color: $dark;
@@ -13,7 +13,7 @@
     margin-bottom: 1.5rem;
     @media screen and (min-width: 768px) {
       font-size: 2.8rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
   }
   ul.products {
@@ -59,7 +59,7 @@
         padding-top: 0.3rem;
         font-size: 1.3rem;
         @media screen and (min-width: 768px) {
-          margin-left: -1rem;
+          margin-left: -1.1rem;
           width: 16rem;
           font-size: 1.7rem;
         }
@@ -71,5 +71,4 @@
     background-color: $color;
     color: $light;
   }
-  
 }
