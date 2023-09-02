@@ -8,11 +8,12 @@
     color: $dark;
   }
   h2 {
-    font-size: 2rem;
     text-transform: uppercase;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
     @media screen and (min-width: 768px) {
       font-size: 2.8rem;
+      margin-bottom: 2rem;
     }
   }
   ul.products {
@@ -28,19 +29,20 @@
       grid-column-end: 3;
     }
     @media screen and (min-width: 768px) {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 17rem;
+      column-gap: 10rem;
       .backp {
-        grid-column-start: 1;
-        grid-column-end: 2;
-      }
-      .case {
         grid-column-start: 2;
         grid-column-end: 3;
       }
-      .bag {
+      .case {
         grid-column-start: 3;
         grid-column-end: 4;
+      }
+      .bag {
+        grid-column-start: 4;
+        grid-column-end: 5;
       }
     }
     figure {
