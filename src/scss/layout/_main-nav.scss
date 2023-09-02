@@ -2,7 +2,7 @@
   font-family: $font-main;
   background-color: $middle;
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   h3 {
     font-size: 1.2rem;
     color: $dark;
@@ -10,13 +10,13 @@
   h2 {
     font-size: 2.8rem;
     text-transform: uppercase;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
   }
   ul.products {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 12.5rem 1fr;
-    grid-template-rows: 16rem 16rem 16rem;
+    grid-template-rows: 16.5rem 16.5rem 16.5rem;
     justify-items: center;
     .backp,
     .case,
@@ -33,9 +33,10 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.25);
+        box-shadow: $shadow;
       }
       figcaption {
+        padding-top: 0.3rem;
         font-size: 1.3rem;
       }
     }
