@@ -4,29 +4,46 @@
   font-family: $font-second;
   background-color: $dark;
   line-height: 2.7rem;
+
   .scroll {
     transform: translateY(-50%);
     box-shadow: $shadow;
     margin-bottom: 0;
     margin-top: 0.5rem;
   }
-  nav {
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    ul {
-      list-style: none;
-      margin-bottom: 1.6rem;
-      li {
-        a {
-          text-decoration: none;
-          color: $light;
+  .more {
+    @include center;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      flex-direction: row-reverse;
+      text-align: left;
+      align-items: flex-start;
+      justify-content: space-evenly;
+    }
+    .footer_nav {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      @media screen and (min-width: 768px) {
+        width: 33%;
+        display: flex;
+        justify-content: space-between;
+      }
+      ul {
+        list-style: none;
+        margin-bottom: 1.6rem;
+        li {
+          a {
+            text-decoration: none;
+            color: $light;
+          }
         }
       }
     }
-  }
-  ul {
-    font-size: 1.4rem;
-    list-style: none;
-    margin-bottom: 2rem;
+    .copy {
+      list-style: none;
+      text-transform: initial;
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
   }
 }
