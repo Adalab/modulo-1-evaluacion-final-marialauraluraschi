@@ -11,7 +11,10 @@
     text-transform: uppercase;
   }
   ul.products {
+    list-style: none;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     figure {
       height: 12rem;
       width: 12rem;

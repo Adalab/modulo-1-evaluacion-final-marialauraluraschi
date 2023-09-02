@@ -1,16 +1,21 @@
 .footer {
   display: flex;
+  flex-direction: column;
   color: $light;
   font-family: $font-second;
   width: 100%;
   padding: 1rem;
   background-color: $dark;
+  text-align: center;
   ul {
     font-size: 1.6rem;
     list-style: none;
     text-transform: uppercase;
+    text-decoration: none;
   }
   div {
     font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
   }
 }
