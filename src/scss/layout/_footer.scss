@@ -11,9 +11,10 @@
     transform: translateY(-50%);
     box-shadow: $shadow;
   
-    &:active{
-      animation-name: bounce;
-      animation-duration: 1s;
+    &:hover{
+      animation-name: fadeOutUp;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
     }
   }
   .more {
