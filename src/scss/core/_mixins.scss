@@ -7,10 +7,9 @@
   font-size: 2rem;
   border: solid 0.25rem $color;
   border-radius: 2rem;
-  transition: 0.8s ease-in-out;
+  transition: 0.3s ease-in-out;
   &:hover {
-    transition: 0.6s ease;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: $shadow;
   }
 }
