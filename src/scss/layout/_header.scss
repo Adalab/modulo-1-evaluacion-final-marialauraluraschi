@@ -2,7 +2,8 @@
   @include center;
   justify-content: flex-end;
   height: 100vh;
-  background-image: url("./images/cover.jpeg");
+  background: url('../images/cover.jpeg') no-repeat;
+  background-size: cover;
   background-color: $color;
   color: $light;
   .hambur {
