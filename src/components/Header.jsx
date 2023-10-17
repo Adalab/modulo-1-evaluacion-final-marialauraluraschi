@@ -1,0 +1,20 @@
+const Header = () => {
+  return (
+    <div class='hero' id='header'>
+      <a href='https://adalab.es/'>
+        <img class='hambur' src='./assets/images/ico-menu.svg' alt='Menú' />{' '}
+      </a>
+      <h1>Comienzos compartidos</h1>
+      <span>Todo lo que necesitan para volver al cole con ilusión</span>
+      <a href='./index.html#main_nav'>
+        <img
+          class='scroll'
+          src='./assets/images/ico-scroll-down.svg'
+          alt='Scroll'
+        />
+      </a>
+    </div>
+  );
+};
+
+export default Header;
